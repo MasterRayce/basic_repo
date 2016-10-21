@@ -1,0 +1,14 @@
+mkdir basic_repo ( on local and on Github)
+touch test.txt
+touch test2.txt
+git init
+git status 
+git add .
+git commit -m"first commit" 
+git remote add origin https://github.com/MasterRayce/basic_repo.git
+git push -u origin master
+make changes to files 
+git status
+git add . 
+git commit -m"added text to file"
+git push -u origin master
